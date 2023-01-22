@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <form action="">
+        Valor do produto:  <br>
+        <input type="text" id="valor"> <br>
+        Forma de pagamento: <br>
+        <select id="pagamento">
+            <option value="1">A vista 10% de desconto</option>
+            <option value="2">Cartão 5% de desconto</option>
+            <option value="3">Parcelado 10% de aumento</option>
+        </select> <br>
+
+        Valor real do produto: 
+        <input type="text" id="real" readonly> <br>
+        Valor total a pagar: <input type="text" id="pagar" readonly> <br>
+        <input type="button" value="Calcular" id="botao" onclick="calcular()">
+
+    </form>
+</body>
+</html>
